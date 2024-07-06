@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 12%;
+    padding:15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+nav > img{
+    width: 165px;
+    height:45px;
+    object-fit: contain;
+    object-position: center;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    font-size:20px;
+    font-family: helvetica;
+    font-weight:500;
+}
+.content{
+    width: 80%;
+    height: 88%;
+    padding: 60px 0px;
+}
+.content section p{
+    font-size:12px;
+    margin-bottom:10px;
+}
+.content section span{
+    font-weight:600;
+    color:rgb(51, 51, 51);
+}
+.content h1{
+    color:rgb(51, 51, 51);
+}
+.planMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.plan1,
+.plan2,
+.plan3,
+.plan4{
+    width:289.2px;
+    height: 630px;
+    border:1px solid black;
+    border-radius: 18px;
+    padding:5px;
+}
+.heading{
+    width: 100%;
+    height: 90px;
+    border-radius: 18px;
+    padding:18px;
+    color:white;
+    background: linear-gradient(to right bottom, rgb(33, 79, 157), rgb(104, 46, 114), #c31432);
+}
+.heading h1{
+    font-size:18px;
+    color:white;
+    margin-bottom:5px;
+}
+.details{
+    width: 100%;
+    height: 80%;
+    padding:18px;
+}
+.details section{
+    padding:15px 0px;
+    border-bottom: 1px solid lightgray;
+}
+.details section h2{
+    font-size: 13px;
+    padding:5px 0px;
+    color:rgb(118, 118, 118);
+}
+.details section p{
+    font-size:15px;
+}
+.details section:last-child{
+    border-bottom: none;
+}
+
+.heading2{
+    width: 100%;
+    height: 90px;
+    border-radius: 18px;
+    padding:20px;
+    color:white;
+    background: linear-gradient(to right bottom, rgb(34, 79, 157),rgb(61, 62, 159),rgb(155, 58, 209));
+}
+.heading2 h1{
+    font-size:18px;
+    color:white;
+    margin-bottom:5px;
+}
+.heading3{
+    width: 100%;
+    height: 90px;
+    border-radius: 18px;
+    padding:20px;
+    color:white;
+    background: linear-gradient(to right bottom , rgb(34, 78, 157),rgb(62, 62, 166), rgb(99, 60, 215));
+}
+.heading3  h1{
+    font-size:18px;
+    color:white;
+    margin-bottom:5px;
+}
+.plan3{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.663);
+}
+.next{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px 0px;
+    flex-direction: column;
+}
+.next p{
+    font-size:12px;
+    color: rgb(115, 115, 115);
+    line-height:20px;
+}
+.next button{
+    margin-top:30px;
+    width: 35%;
+    background-color: rgb(229, 9, 20);
+    color:white;
+    border:none;
+    border-radius:6px;
+    padding:20px 0px;
+    font-size:25px;
+    font-family: helvetica;
+    cursor: pointer;
+}
